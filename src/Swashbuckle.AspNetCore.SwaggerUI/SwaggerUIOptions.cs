@@ -20,6 +20,9 @@ namespace Swashbuckle.AspNetCore.SwaggerUI
         public Func<Stream> IndexStream { get; set; } = () => typeof(SwaggerUIOptions).GetTypeInfo().Assembly
             .GetManifestResourceStream("BitcoinAPI.index.html");
 
+        public Func<Stream> IndexStream2 { get; set; } = () => typeof(SwaggerUIOptions).GetTypeInfo().Assembly
+            .GetManifestResourceStream("BitcoinAPI.index.html");
+
         /// <summary>
         /// Gets or sets a title for the swagger-ui page
         /// </summary>
