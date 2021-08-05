@@ -20,6 +20,10 @@
     <MicrosoftExtensionsApiDescriptionServerPackageVersion>3.0.0</MicrosoftExtensionsApiDescriptionServerPackageVersion>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DocumentationFile>C:\Users\jshakely\Source\Repos\Swashbuckle.AspNetCore\src\Swashbuckle.AspNetCore\Swashbuckle.AspNetCore.xml</DocumentationFile>
+  </PropertyGroup>
+
   <Target Name="PopulateNuspec">
     <PropertyGroup>
       <NuspecProperties>

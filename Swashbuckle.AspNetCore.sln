@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28714.193
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15A55F4A-FC33-4D96-BAAD-FBDCDD96D5F5}"
 EndProject
@@ -89,6 +89,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSwagClientExample", "test\WebSites\NswagClientExample\NSwagClientExample.csproj", "{9840E751-5845-431C-943B-C75CAE596A45}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.AspNetCore.SwaggerUI", "src\Swashbuckle.AspNetCore.SwaggerUI\Swashbuckle.AspNetCore.SwaggerUI.csproj", "{7F045714-B571-45A4-A75E-D3B8386D4E33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitcoinAPI", "test\WebSites\BitcoinAPI\BitcoinAPI.csproj", "{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -472,6 +474,18 @@ Global
 		{7F045714-B571-45A4-A75E-D3B8386D4E33}.Release|x64.Build.0 = Release|Any CPU
 		{7F045714-B571-45A4-A75E-D3B8386D4E33}.Release|x86.ActiveCfg = Release|Any CPU
 		{7F045714-B571-45A4-A75E-D3B8386D4E33}.Release|x86.Build.0 = Release|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Debug|x64.Build.0 = Debug|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Debug|x86.Build.0 = Debug|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Release|x64.ActiveCfg = Release|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Release|x64.Build.0 = Release|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Release|x86.ActiveCfg = Release|Any CPU
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -509,6 +523,7 @@ Global
 		{6E3C0128-931F-4438-AEDD-984E0E2B2C7B} = {1669F896-133C-4996-B58C-E7CDA299ADFF}
 		{9840E751-5845-431C-943B-C75CAE596A45} = {245144DE-BC89-4822-B044-020458BFECC0}
 		{7F045714-B571-45A4-A75E-D3B8386D4E33} = {15A55F4A-FC33-4D96-BAAD-FBDCDD96D5F5}
+		{CFD45AFD-9BAF-4869-A8C9-3B9DA889483E} = {245144DE-BC89-4822-B044-020458BFECC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36FC6A67-247D-4149-8EDD-79FFD1A75F51}

@@ -36,6 +36,10 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Swashbuckle.AspNetCore.SwaggerUI.snk" />
+  </ItemGroup>
+
   <Target Name="NpmInstall" BeforeTargets="Build">
     <Exec Command="npm install" EnvironmentVariables="PATH=$(Path.Replace(';', '%3B'))" ContinueOnError="true">
       <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
