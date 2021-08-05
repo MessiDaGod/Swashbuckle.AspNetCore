@@ -1,3 +1,6 @@
 [submodule "BitcoinAPI"]
 	path = BitcoinAPI
 	url = https://github.com/MessiDaGod/BitcoinAPI.git
+[submodule "test/WebSites/BitcoinAPI"]
+	path = test/WebSites/BitcoinAPI
+	url = https://github.com/MessiDaGod/BitcoinAPI.git
